@@ -13,6 +13,7 @@ class VaultTransferExample
     {
         bool interactive = IsInteractive();
 
+        // Read configuration inputs only once at startup.
         bool overwrite = false;
         string overwriteInput = interactive
             ? Prompt("Do you want to enable overwrite? (true/false): ", "false")
@@ -223,6 +224,7 @@ class VaultTransferExample
         return input.ToString();
     }
 
+    // Determines if the application is running interactively.
     static bool IsInteractive()
     {
         return Environment.UserInteractive;
