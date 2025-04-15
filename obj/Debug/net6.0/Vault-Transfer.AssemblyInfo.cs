@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vault-Transfer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2247ccd57c92228c5c0be0f93e014a77f7e4aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vault-Transfer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vault-Transfer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
